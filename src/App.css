@@ -1,0 +1,163 @@
+/* Global Styling */
+body {
+ font-family: 'Arial', sans-serif;
+ margin: 0;
+ padding: 0;
+ background-color: #a26c61;
+ color: #333;
+ height: 100%; 
+ margin: 0; 
+}
+
+html {
+    height: 100%; 
+    margin: 0; 
+}
+
+main { padding-bottom: 70px; } 
+
+#homepage {
+    text-align:center;
+}
+
+/* Header and Navigation Styling */
+header {
+    background-color: #CC5500;  
+    color: #ffffff;  
+    padding: 20px;
+    text-align: center;
+}
+
+header h1 {
+    font-family: 'Arial', sans-serif;
+    margin: 0px 0px 20px;
+    font-size: 40px;
+ }
+
+#txt-red {
+    color:red;
+}
+
+
+nav ul li {
+    display: inline;
+    margin: 0 15px 0px 15px;
+}
+
+nav li a {
+    color: #ffffff; /* White */
+    text-decoration: none;
+    font-size: 20px;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+} 
+
+
+
+/* Section Styling */
+section {
+    padding: 30px;
+    background-color: #f0e2e0; /* White */
+    margin: 30px auto;
+    border-radius: 10px;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.1);
+    width: 80%;
+}
+
+
+/* Table Styling */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px -10px;
+}
+
+table th, table td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: left;
+}
+
+table th {
+    background-color: #cc5500; /* Burnt Orange */
+    color: #ffffff; /* White */
+}
+
+table tr:nth-child(even) {
+    background-color: #f2f2f2; /* Light Khaki for contrast */
+}
+
+table tr:hover {
+    background-color: #d3d3d3;
+}
+
+/* Form Styling */
+form label {
+    font-weight: bold;
+    margin-bottom: 5px;
+    display: inline-block;
+    color: #cc5500; /* Burnt Orange */
+}
+
+form input[type="text"], form input[type="email"] {
+    padding: 10px;
+    margin: 10px 0;
+    width: 80%;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+
+/* Footer Styling */
+footer {
+    background-color: #CC5500; /* Navy Blue */
+    color: #ffffff; /* White */
+    text-align: center;
+    padding: 10px;
+    height: 70px;
+    width: 100%;
+}
+
+.content{
+    flex: 1;
+}
+
+.wrapper {
+  
+  min-height: 100vh;  
+  display: flex;
+  flex-direction: column;
+
+}
+
+footer p {
+    margin: 10;
+}
+
+/* Additional Styling for Image Gallery in index.html */
+img {
+    border-radius: 10px;
+    margin: 20px;
+}
+
+/* Custom Highlight Section Styling */
+h2 {
+    color: navy
+}
+
+h3 {
+    color: #cc5500; /* Burnt Orange */
+}
+
+hr {
+    border: 0;
+    height: 2px;
+    background: navy; /* Navy Blue */
+}
+
+#results {
+    text-align: center;
+    color:red
+}
