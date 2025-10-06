@@ -12,8 +12,10 @@ const pages = [
 
 export default function ResponsiveAppBar() {
   return (
-    <AppBar position="static" id="appbar" sx={{ backgroundColor: '#CC5500' }}>                                
+    <AppBar position="static" id="appbar" sx={{ backgroundColor: '#CC5500' }}>  
+    {/* AppBar used */}
       <Toolbar sx={{ justifyContent: 'center' }}>
+        {/* Toolbar used */}
   <Box sx={{ display: 'flex', gap: 2 }}>
     {pages.map(({ label, to }) => (
       <Button
